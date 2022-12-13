@@ -49,6 +49,6 @@ app.get('/scriptMain.js', (req, res) => {
 
 
 
-app.listen(process.env.SERVER_PORT, () => {
-    console.log(`Express app listening on port ${process.env.SERVER_PORT}!`)
+app.listen(process.env.PORT, () => {
+    console.log(`Express app listening on port ${process.env.PORT}!`)
 });
