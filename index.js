@@ -38,8 +38,8 @@ app.get('/scriptMain.js', (req, res) => {
         if (!error && response.statusCode == 200) {
 
             body = body.replace(
-                '/ApiSession/LogJavaScript?as=0',
-                'https://quote.usinsuranceonline.com/AutoSimple/ApiSession/LogJavaScript?as=0'
+                '/ApiSession/',
+                'https://quote.usinsuranceonline.com/AutoSimple/ApiSession/'
             );
 
             res.send(body);
